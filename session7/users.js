@@ -33,10 +33,12 @@ const userDetail = () => {
         const user = context.users[i];
         eachUser.addEventListener('click',()=>{
             const displayUser = `
-            <div>
-            <img src = "${user.avatar}" alt = ""> <br>
-            <b>Name: </b><span>${user.first_name} ${user.last_name}</span> <br>
-            <b>Email: </b><span>${user.email}</span>
+            <div class="card-user">
+            <img class="image-user" src = "${user.avatar}" alt = ""> 
+            <div class="user-info">
+                <span class="user-fullname">${user.first_name} ${user.last_name}</span> 
+                <span>${user.email}</span>
+            </div>
             </div>
             `
             divUser.innerHTML = displayUser;
