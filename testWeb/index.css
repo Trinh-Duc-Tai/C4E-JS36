@@ -1,0 +1,39 @@
+.to{
+    display: block;
+    height: 1000px;
+    background-color: #b2ff59;
+}
+.tieuDe{
+    display:block;
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+}
+span{
+    color:white;
+}
+.khoiTo{
+    display: flex;
+    height: 400px;
+    background-color: #9E9E9E;
+    justify-content: space-around;
+    align-items: center;
+}
+.khoi1{
+    display: block;
+    height: 300px;
+    width: 25%;
+    background-color: #18FFFF;
+}
+.khoi2{
+    display: block;
+    height: 300px;
+    width: 25%;
+    background-color: #FF5722;
+}
+.khoi3{
+    display: block;
+    height: 300px;
+    width: 25%;
+    background-color: #6D4C41;
+}
